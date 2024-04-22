@@ -2,9 +2,22 @@
     font-family: "Courier New", sans-serif;
 }
 
-h1 {
+.title {
     font-size: 48px;
     text-align: center;
+}
+
+.recipes-stub {
+    margin: 80px auto;
+    width: 60%;
+    padding: 80px;
+    color: black;
+    border-radius: 5px;
+}
+
+{
+    color:white;
+    background-color: black;
 }
 
 .recipes-list {
@@ -12,31 +25,44 @@ h1 {
     list-style-position: outside;
 }
 
+.recipe-entry {
+    margin: 10px;
+}
+
 .recipe-img {
     width: 500px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 60px;
+    border: 5px inset black;
 }
 
-.steps-list h4,
-a:hover {
+.recipe-block {
+    margin: 20px;
+    border-bottom: 5px solid black;
+}
+
+.recipe-entry a:hover,
+.recipes-stub:hover,
+.backlink:hover {
     background-color: black;
     color: white;
 }
 
-.ingredients-list,
-.steps-list,
-.description {
+.recipe-block p,
+.recipe-block li {
     color: chocolate;
 }
 
 .backlink {
+    display: block;
+    text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    margin: 20px;
 }
 
+.recipe-block h3,
 a {
     background-color: white;
     color: black;
